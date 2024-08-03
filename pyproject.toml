@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "notes_bot"
+version = "1.0"
+description = "Telegram Bot для добавления и просматривания заметок"
+authors = ["Stanislav <projects@fl1yd.su>"]
+readme = "README.md"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+aiogram = "2.25.1"
+dacite = "^1.8.1"
+toml = "^0.10.2"
+asyncpg = "^0.29.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

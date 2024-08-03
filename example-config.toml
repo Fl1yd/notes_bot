@@ -1,0 +1,5 @@
+[bot]
+token = "12345:abcdf"
+
+[settings]
+database_url = "postgresql://user:password@host/database"
